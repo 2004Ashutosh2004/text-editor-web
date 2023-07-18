@@ -6,6 +6,7 @@ import { BrowserRouter,Route } from 'react-router-dom';
 // import Form2 from './Component/form2';
 // import Form from './Component/form';
 // import Form1 from './Component/form1';
+
 function App() {
   
     setInterval(()=>{
@@ -19,12 +20,12 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Navbar title="Ashutosh_Profile"/>
+      <Navbar title="Text Editor"/>
       <div className="container-fluid Ashutosh mt-0 darkmode-toggle" id='darkmode-toggle-button'>
       
           <Route exact path="/about" component={About}></Route>
-          <Route path="/">
-            <Textform heading="Enter the Text to Analyze"/>
+          <Route path="/Home">
+            <Textform heading="TEXT EDITOR"/>
             
           </Route>
         

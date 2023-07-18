@@ -94,8 +94,15 @@ input[type=email], select{
   background-color: #a7d3f1 !important;
 }
 .Ashutosh.active{
-  background-color: #000 !important;
+  background-color: #000000 !important;
 }
 .Summary{
   margin-left: 450px;
 }
+.Ashutosh{
+
+  
+  background-color: white;
+}
+
+.form-control{border: var(--bs-border-width) solid var(--bs-border-color-rgb(0, 0, 0));}
