@@ -24,7 +24,7 @@ function App() {
       <div className="container-fluid Ashutosh mt-0 darkmode-toggle" id='darkmode-toggle-button'>
       
           <Route exact path="/about" component={About}></Route>
-          <Route path="/Home">
+          <Route path="/">
             <Textform heading="TEXT EDITOR"/>
             
           </Route>
